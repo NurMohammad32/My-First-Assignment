@@ -1,0 +1,198 @@
+/* =============== GLOBAL CSS STYLE =============== */
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+h1,h2,h3,h4,h5,p{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-size: 45px;
+}
+h2 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 45px;
+}
+h3{
+    font-size: 35px;
+}
+h4{
+    font-size: 30px;
+}
+p{
+    font-size: 17px;
+    font-weight: 500;
+    padding-top: 30px;
+    text-align: justify;
+    padding-bottom: 33px;
+}
+/* =============== ADDITIONAL CSS STYLE =============== */
+section{
+    padding: 0 111px 75px;
+}
+.flex{
+    display: flex;
+}
+.theme-color{
+    color: orangered;
+}
+.half-width{
+    width: 50%;
+}
+.half-width img{
+    width: 75%;
+}
+/* =============== HEADER AREA CSS STYLE =============== */
+.left{
+    padding-top: 9%;
+    padding-left: 3%;
+    position: relative;
+}
+.right{
+    padding-top: 7%;
+    padding-left: 7%;
+}
+.title {
+    font-size: 55px;
+    font-weight: 500;
+    padding-right: 7px;
+    border-left: 5px solid;
+    border-image: linear-gradient(orangered, blue);
+    border-image-slice: 0;
+    font-family: 'Abril Fatface', cursive;
+}
+.title::before {
+    content: "";
+    position: absolute;
+    width: 5px;
+    top: 22.5%;
+    left: 25px;
+    height: 115px;
+    border-radius: 9px;
+    background-image: linear-gradient(salmon, orange);
+}
+.button{
+    margin: 11px 0;
+    color: white;
+    font-weight: 700;
+    padding: 13px 37px;
+    border-radius: 5px;
+    text-decoration: none;
+    background-image: linear-gradient(45deg, orange, orangered);
+}
+/* =============== MISSION AREA CSS STYLE =============== */
+.one-third{
+    width: 31%;
+    margin: 0 1%;
+    border-radius: 15px;
+    padding: 25px 21px 0;
+}
+.one-third img{
+    width: 40%;
+}
+.mission{
+    background-color: rgba(135, 206, 235, .7);
+}
+.vission{
+    background-color: rgba(250, 128, 114, .7);
+}
+.goals{
+    background-color: rgba(255, 165, 0, .7);
+}
+/* =============== CODING AREA CSS STYLE =============== */
+.coding-area{
+    background-image: url(Images/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: 6% 0%;
+    background-size: 15%;
+    padding-top: 5%;
+}
+.coding{
+    padding-top: 3%;
+    padding-right: 3%;
+}
+.coding-area img{
+    margin-left: 5%;
+}
+/* =============== PROJECT AREA CSS STYLE =============== */
+.project-area{
+    background-image: url(Images/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: 95% 81%;
+    background-size: 15%;
+    padding-bottom: 11%;
+}
+.project{
+    padding-top: 3%;
+    padding-left: 3%;
+}
+.project-area img{
+    margin-left: 17%;
+}
+/* =============== CONTACT AREA CSS STYLE =============== */
+#contact-area{
+    background: linear-gradient(rgba(60,84,153, .95),rgba(60,84,153, .95)),url(Images/contact-bg.jpg);
+    padding-top: 55px;
+    padding-bottom: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+}
+#contact-area h2{
+    margin-bottom: 10px;
+}
+#para{
+    width: 650px;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 50px;
+}
+form{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+input{
+    border: none;
+    width: 302px;
+    height: 29px;
+    padding: 7px;
+    font-size: 17px;
+    margin-left: 5px;
+    margin-right: 3px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background-color: rgb(23, 42, 89);
+}
+textarea{
+    border: none;
+    width: 630px;
+    height: 150px;
+    padding: 7px;
+    margin-bottom: 65px;
+    font-size: 17px;
+    border-radius: 5px;
+    background-color: #172958;
+}
+.contact-button{
+    margin: 0 41%;
+}
+/* =============== FOOTER AREA CSS STYLE =============== */
+footer{
+    padding: 39px 0;
+    text-align: center;
+    background-color: #0B0D17;
+}
+footer h4{
+    color: white;
+    font-size: 33px;
+    font-weight: 500;
+    padding-bottom: 19px;
+    font-family: 'Lobster', cursive;
+}
+footer small{
+    color: white;
+    text-align: center;
+}
